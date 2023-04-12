@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TaskLance</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'landing/css/base.css' %}">
+
+</head>
+
+<body>
+
+	<header>
+		<h2><img src="{%static 'landing/img/logoblue.png' %}" alt="logo"></h2>
+		<nav>
+			<li><a href="#">Войти</a></li>
+			<li><a href="#">Регистрация</a></li>
+			<li><a href="#">Контакты</a></li>
+		</nav>
+	</header>
+
+
+	<section class="hero">
+		<div class="background-image" style="background-image: url(static/landing/img/hero.jpg);"></div>
+		<h1>TaskLance - Фриланс маркетплейс</h1>
+		<h3>by NetPoizon team</h3>
+	</section>
+
+
+	<section class="our-work">
+		<h3 class="title">Реши поставленную задачу</h3>
+		<p>TaskLance - удобный маркетплейс фриланс услуг, прозрачность, увереность в исполнителе</p>
+	</section>
+
+
+	<section class="features">
+		<h3 class="title">Заказы на любой вкус</h3>
+		<hr>
+
+		<ul class="grid">
+			<li>
+				<i class="fa fa-object-group"></i>
+				<h4>Создание Дизайна</h4>
+				<p>-</p>
+			</li>
+			<li>
+				<i class="fa fa-cubes"></i>
+				<h4>Разработка программ</h4>
+				<p>-</p>
+			</li>
+			<li>
+				<i class="fa fa-graduation-cap"></i>
+				<h4>Написание учебных работ</h4>
+				<p>-</p>
+			</li>
+		</ul>
+	</section>
+
+
+
+	<footer>
+		<ul>
+			<li><a href="https://vk.com/k.khamraev81"><i class="fa fa-vk"></i></a></li>
+			<li><a href="https://t.me/ilpdakz"><i class="fa fa-telegram"></i></a></li>
+			<li><a href="https://github.com/knyazevi81"><i class="fa fa-github-square"></i></a></li>
+		</ul>
+		<p>Made by <a href="https://github.com/knyazevi81" target="_blank">Khasan Zaynidinov</a>.</p>
+		<p>khasanknyazev81@gmail.com - для связи</p>
+	</footer>
+
+</body>
+
+</html>
